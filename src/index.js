@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+//can also put this in App and leave index clean
 const post = {
   title: "The End Is Near",
   author: "Scaredy Stegosaurus",

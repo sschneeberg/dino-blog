@@ -1,3 +1,5 @@
+//to use Class components props are this.props
+
 function Post(props) {
   const comments = props.comments.map((comment) => {
     return <p className="comments">{comment}</p>;
