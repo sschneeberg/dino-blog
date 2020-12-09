@@ -11,6 +11,7 @@ class Post extends Component {
     edit(evt) {
         let newBody = evt.target[0].value;
         this.setState({ body: newBody });
+        evt.target[0].value = '';
     }
 
     show() {
